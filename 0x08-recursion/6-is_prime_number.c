@@ -6,7 +6,7 @@ int actual_prime(int n, int i);
 /**
  * is_prime_number - function that returns 1
  * @n: number to evaluate
- * Return: 1 or 0
+ * Return: 1 if n is a prime, 0 if not
  */
 
 int is_prime_number(int n)
@@ -20,6 +20,7 @@ int is_prime_number(int n)
  * actual_prime - calculates if number is prime recusive
  * @n: number evaluated
  * @i: iterator
+ * Return: 1 if n is a prime, 0 if not
  */
 int actual_prime(int n, int i)
 {
