@@ -1,6 +1,13 @@
 #ifdef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+#include <stdbool.h>
+#include <string.h>
+#include <malloc.h>
+
 void _puts_recursion(char *s);
 int _putchar(char c);
 void _print_rev_recursion(char *s);
